@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="weather.css">
+        <style>
+ 
+        </style>
+    </head>
+    <body>
+        <h2>Weather Information</h2>
+        <div id="main">
+         <form action="" onsubmit="reload()">
+             <input type="search" id="city" name="search" autofocus="" placeholder="Check your weather"  id="search">
+             <button type="button" id="btn" onclick="getweather()">Submit</button>
+         </form>
+        </div>
+        <div id="output">
+        <h3>Temp : <h4 id="x1"></h4></h3>
+        <h3>Pressure : <h4 id="x2"></h4></h3>
+        <h3>Humidity<h4 id="x3"></h4></h3>
+        <h3>Wind speed : <h4 id="x4"></h4></h3>
+        </div>
+
+
+        <script src="weather.js"></script>
+    </body>
+</html>

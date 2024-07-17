@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgb(
+        59, 177, 198);
+}
+h2{
+    text-align: center;
+    font-size:7vh;
+    margin-top:2%;
+
+
+}
+#main{
+    width: 100vw;
+    height:10vh;
+    margin: 4% auto;
+    padding: 2%;
+    border-radius: 30px;
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  28px 28px 52px #969696,
+         -28px -28px 52px #ffffff;
+}
+#main form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3vh;
+}
+#btn{
+    padding:1vh;
+    background: transparent;
+    border-radius:20px;
+    border: 0;
+    height:40px;
+    width: 80px;
+    font-weight:600;
+    font-size:2vh;
+    opacity: 0.7;
+    transition: 0.4s;
+}
+#btn:hover{
+    opacity:1;
+    transform: scale(1.5);
+    cursor: pointer;
+    color: rgb(46, 179, 46);
+}
+form input{
+    width: 220px;
+    height: 40px;
+    border: 0;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+::placeholder{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    font-style: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#output{
+    width: 50vw;
+    min-height:20vh;
+    margin:5% auto;
+    column-count: 2;
+    padding-top: 3vh;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    box-shadow:1px 1px 10px 4px white;
+}
+#output h3{
+    white-space: nowrap;
+    line-height:20px;
+}
